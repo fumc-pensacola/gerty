@@ -12,7 +12,7 @@ const makeURL = site => (
 
 module.exports = robot => {
   robot.hear(/is( the)? (.+) (up|down)/i, res => {
-    const site = res.match[2];
+    const site = res.match[2].toLowerCase();
     const url = sites[site] || makeURL(site);
     testURL(url).then(statusCode => {
       res.reply(`${url} is up with status code ${statusCode}.`);
