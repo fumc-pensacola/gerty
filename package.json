@@ -22,12 +22,10 @@
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
-    "hubot-rss-alerts": "0.0.1",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^4.2.1",
-    "nodepie": "^0.7.0",
     "request": "^2.75.0"
   },
   "engines": {

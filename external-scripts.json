@@ -9,6 +9,5 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-github-notify",
-  "hubot-github-identity",
-  "hubot-rss-alerts"
+  "hubot-github-identity"
 ]
