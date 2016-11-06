@@ -10,6 +10,7 @@
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
+    "basicauth-middleware": "^2.0.0",
     "coffee-script": "^1.11.1",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",

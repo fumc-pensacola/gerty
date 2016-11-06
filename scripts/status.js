@@ -10,7 +10,7 @@ const makeURL = site => (
   /^https?:\/\//.test(site) ? site : `http://${site}`
 );
 
-module.exports = robot => {
+export default robot => {
   robot.hear(/is( the)? (.+) (up|down)/i, res => {
     const site = res.match[2].toLowerCase();
     const url = sites[site] || makeURL(site);
